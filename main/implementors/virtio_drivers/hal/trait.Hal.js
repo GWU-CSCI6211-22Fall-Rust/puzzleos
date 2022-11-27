@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["puzzleos"] = [{"text":"impl Hal for <a class=\"struct\" href=\"puzzleos/drivers/bus/virtio/struct.VirtioHal.html\" title=\"struct puzzleos::drivers::bus::virtio::VirtioHal\">VirtioHal</a>","synthetic":false,"types":["puzzleos::drivers::bus::virtio::VirtioHal"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
