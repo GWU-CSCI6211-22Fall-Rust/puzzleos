@@ -51,7 +51,7 @@ lazy_static! {
 }
 
 pub fn list_apps() {
-    println!("/**** APPS ****");
+    println!("/**** AVAILABE APPS ****");
     for app in ROOT_INODE.ls() {
         println!("{}", app);
     }

@@ -48,7 +48,6 @@ static FAIL_TESTS: &[(&str, &str, &str, &str, i32)] = &[
     ("priv_csr\0", "\0", "\0", "\0", -4),
     ("priv_inst\0", "\0", "\0", "\0", -4),
     ("store_fault\0", "\0", "\0", "\0", -11),
-    ("until_timeout\0", "\0", "\0", "\0", -6),
     ("race_adder\0", "\0", "\0", "\0", -6),
     ("huge_write_mt\0", "\0", "\0", "\0", -6),
 ];
