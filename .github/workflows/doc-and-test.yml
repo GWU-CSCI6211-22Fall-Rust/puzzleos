@@ -62,5 +62,5 @@ jobs:
           sudo make install
           qemu-system-riscv64 --version
       - name: Run usertests
-        run: cd puzzleos && make run TEST=1
+        run: cd puzzleos && make
         timeout-minutes: 10
