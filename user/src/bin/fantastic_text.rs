@@ -13,22 +13,21 @@ macro_rules! color_text {
 #[no_mangle]
 pub fn main() -> i32 {
     println!(
-        "{}{}{}{}{} {}{}{}{} {}{}{}{}{}{}",
+        "{}{}{}{}{} {}{}{}{}{}{}{}{}{}",
         color_text!("H", 31),
         color_text!("e", 32),
         color_text!("l", 33),
         color_text!("l", 34),
         color_text!("o", 35),
-        color_text!("R", 36),
+        color_text!("p", 36),
         color_text!("u", 37),
-        color_text!("s", 90),
-        color_text!("t", 91),
-        color_text!("u", 92),
-        color_text!("C", 93),
+        color_text!("z", 90),
+        color_text!("z", 91),
+        color_text!("l", 92),
+        color_text!("e", 93),
         color_text!("o", 94),
-        color_text!("r", 95),
-        color_text!("e", 96),
-        color_text!("!", 97),
+        color_text!("s", 95),
+        color_text!("!", 96),
     );
 
     let text =
@@ -37,7 +36,7 @@ pub fn main() -> i32 {
     for i in 31..38 {
         println!("{}", color_text!(text, i));
     }
-    for i in 90..98 {
+    for i in 90..97 {
         println!("{}", color_text!(text, i));
     }
     0

@@ -76,7 +76,7 @@ impl ProcessArguments {
 
 #[no_mangle]
 pub fn main() -> i32 {
-    println!("Rust user shell");
+    println!("puzzleos user shell");
     let mut line: String = String::new();
     print!("{}", LINE_START);
     loop {
